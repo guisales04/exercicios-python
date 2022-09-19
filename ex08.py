@@ -17,4 +17,4 @@ def fizz_buzz(num: int = 0) -> str | int:
         return num
 
 
-print(fizz_buzz(int(input('Digite um número: '))))
+print(fizz_buzz(int(input('Insira um número: '))))
