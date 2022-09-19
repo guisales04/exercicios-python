@@ -6,8 +6,8 @@
 """
 
 
-def soma(n1: int | float = 0, n2: int | float = 0) -> int | float:
-    total = n1 + (n1 * n2 / 100)
+def soma(valor: int | float = 0, percentual: int | float = 0) -> int | float:
+    total = valor + (valor * percentual / 100)
     return total
 
 
