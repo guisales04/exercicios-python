@@ -6,5 +6,5 @@ carrinho.append(('Produto 3', 50))
 carrinho.append(('Produto 4', 90))
 carrinho.append(('Produto 5', 10))
 
-total = sum([x[1] for x in carrinho])
+total = sum([float(y) for x, y in carrinho])
 print(total)
